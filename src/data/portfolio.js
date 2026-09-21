@@ -10,7 +10,7 @@ export const profile = {
   linkedin: "https://linkedin.com/in/samreen-khubaib",
   github: "https://github.com/Samreen-Khubaib",
   summary:
-    "I build and deploy scalable web applications with the MERN stack and Next.js — from RESTful APIs and real-time systems to production infrastructure on AWS EC2. My final year project paired a full e-commerce platform with an NLP chatbot, a cosine-similarity recommendation engine, WebRTC live commerce, and AR try-on.",
+    "I build and deploy scalable web applications with the MERN stack and Next.js from RESTful APIs and real-time systems to production infrastructure on AWS EC2. My final year project paired a full e-commerce platform with an NLP chatbot, a cosine-similarity recommendation engine, WebRTC live commerce, and AR try-on.",
 };
 
 export const stack = [
@@ -27,7 +27,7 @@ export const stack = [
   {
     id: "ai",
     label: "AI / ML",
-    items: ["TensorFlow.js", "MediaPipe", "Hugging Face Embeddings", "Groq API", "Cosine Similarity", "NLP"],
+    items: ["Hugging Face Embeddings", "Groq API", "Cosine Similarity", "NLP"],
   },
   {
     id: "data",
@@ -105,6 +105,16 @@ export const projects = [
 ];
 
 export const experience = [
+  {
+    id: "optimageeks",
+    role: "Software Engineer Intern",
+    org: "OptimaGeeks",
+    period: "Aug 2026 – Present",
+    points: [
+      "Developing and maintaining full-stack web applications as part of a professional engineering team in a real-world production environment",
+      "Collaborating with senior developers on feature development, code reviews, and deployment workflows using modern web technologies",
+    ],
+  },
   {
     id: "endless-invo",
     role: "Node.js Backend Developer",
